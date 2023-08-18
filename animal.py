@@ -29,6 +29,10 @@ class Animal:
     def woof(self):
         print("Animal says woof")
 
+    def meow(self):
+        print("Animal says meow")
+
+
 if __name__ == "__main__":
     dog = Animal(name="puppy", age=5, price=1000, animal_type="dog")
     dog.get_animal()
@@ -36,3 +40,5 @@ if __name__ == "__main__":
     dog.compare_price(500)
 
     dog.woof()
+
+    dog.meow()
