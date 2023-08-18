@@ -26,9 +26,13 @@ class Animal:
         else:
             print("This is in budget")
 
+    def woof(self):
+        print("Animal says woof")
 
 if __name__ == "__main__":
     dog = Animal(name="puppy", age=5, price=1000, animal_type="dog")
     dog.get_animal()
     print(dog.check_price())
     dog.compare_price(500)
+
+    dog.woof()
