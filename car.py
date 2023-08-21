@@ -1,4 +1,4 @@
-class car:
+class Car:
     def __init__(self, name, model, year):
         self.name = name
         self.model = model
@@ -26,7 +26,7 @@ class car:
 
 
 if __name__ == "__main__":
-    car = car(name="BMW", model="320", year=2019)
-    print(car.get_descriptive())
+    car = Car(name="BMW", model="320", year=2019)
+    print(Car.get_descriptive())
     car.read_odometer()
     car.update_odometer(mileage=23)
