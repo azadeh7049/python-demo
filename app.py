@@ -23,7 +23,7 @@ if __name__ == "__main__":
     car = Car(name="Audi", model="G4", year=2023)
     print(car.get_descriptive())
 
-    animal = Animal(name="Cat", age=2, price=2500, animal_type="pesian cat")
+    animal = Animal(name="Kitty", age=2, price=2500, animal_type="Cat")
     animal.get_animal()
 
     mike = Customer(name="Mike", address="321 Toronto", balance=1000)
